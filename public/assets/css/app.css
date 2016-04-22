@@ -1,14 +1,278 @@
-.navbar-brand {
-  padding: 10px;
+@font-face {
+	font-family: "century";
+	src: url('C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/fonts/Century Gothic Std Regular.otf');
 }
 
-.navbar-brand > img {
-  width: 120px;
-  height: 30px;
+
+html,
+body {
+  height: 100%;
+  background color: black;
+	font-family: century;
 }
 
-.cat {
-  width: 400px;
-  height: 300px;
-  position: relative;
+#cover {
+  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/Gaming_Tables01.jpg") center center no-repeat;
+  background-size: cover;
+  color: white;
+  height:100%;
+  text-align: center;
+  display: flex;
+  padding-top: 50px;
+	font-family: century;
+}
+
+#h1-1{
+  font-size: 60px;
+  background-color:rgba(0, 0, 0, 0.6);
+  zoom: 1;
+}
+
+#h3-1{
+  background: black;
+  background-color:rgba(0, 0, 0, 0.8);
+  zoom: 1;
+  font-size: 28px;
+}
+
+#h4-1{
+  background: black;
+  background-color:rgba(0, 0, 0, 0.8);
+  zoom: 1;
+  font-size: 20px;
+}
+
+#img-row{
+  width: 100%;
+  height:auto;
+}
+
+#about{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+	font-family: century;
+	padding-bottom: 40px;
+}
+
+.about-container-fluid{
+  padding: 0;
+}
+
+.img-about{
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+#about-text-h1{
+  color: white;
+  padding-bottom: 0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#about-text-h3{
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.about-text{
+padding-bottom: 25px;
+margin-top: 0;
+}
+
+#map{
+  background-color: black;
+}
+
+#cards{
+  background-color: black;
+  color: silver;
+  padding: 0 0 5rem 0;
+  text-align: center;
+}
+
+#cards-2{
+  padding: 0 0 5rem 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#antiguo-casino{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card-img-top{
+  box-shadow: 10px 10px 15px #000;
+  width:100%;
+  height:auto;
+}
+
+.card{
+	padding: 30px 0;
+}
+
+.casino-card-title{
+  color: white;
+}
+
+/*Boton adentro de los juegos de mesas------------------------------------------*/
+.btn {
+    text-transform: uppercase;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+    font-size: 50px;
+    width: 100%;
+    zoom: .8;
+    padding: 50px
+}
+.btn-primary.outline {
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: black;
+    border: none;
+    background-color: white;
+}
+/*------------------------------------------------------------------------------*/
+
+#modal-button{
+  margin-top: 50px;
+}
+
+#blackjack{
+  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/Blackjack_1024x380px.jpg")center top no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  height: 100%
+
+}
+
+#roulette{
+  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/c8c1373c485510341c0ec1bbe836c715.jpg")center top no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  height: 100%
+}
+
+#poker{
+  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/Poker-Texas-Hold-Em.jpg")center top no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  height: 100%;
+}
+
+#craps{
+  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/readBlob.jpg")center center no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  height: 100%;
+}
+
+#mini-bac{
+  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/baccarat.jpg")center center no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  height: 100%;
+}
+
+
+#casinos-tittle{
+  color: white;
+}
+
+#sites{
+  padding-top: 100px;
+	font-weight: 600;
+}
+
+#how-to-get{
+	margin-top: 0;
+	margin-bottom: 25px;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+}
+
+.modal-h1{
+  margin-top: 0;
+}
+
+.table-games-text{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+
+a.button {
+  background:#e74c3c;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 10px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0;
+    width: 100%;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+  zoom: 1.5;
+  padding: 0;
+  text-shadow: 1px 2px  black;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 10px;
+  color: white;
+}
+
+.navbar.navbar-inverse{
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.dropdown-toggle{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.nav-item{
+  padding-right: 55px;
+}
+
+
+.card{
+  padding-top: 50px;
+}
+
+p{
+	font-size: 20px;
+	color: silver;
+}
+
+.disclaimer{
+	color: black;
+	font-size: 15px;
+}
+
+#footer-main{
+  font-size: 1.2rem;
+  padding: 2.5rem 0;
+  background-color: #F3FFE8;
 }
