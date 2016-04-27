@@ -23,11 +23,11 @@ body {
   text-align: center;
   display: flex;
   padding-top: 50px;
-	font-family: century;
+  font-family: century;
 }
 
 #h1-1{
-  font-size: 60px;
+  font-size: 50px;
   background-color:rgba(0, 0, 0, 0.6);
   zoom: 1;
 }
