@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "century";
-	src: url('C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/fonts/Century Gothic Std Regular.otf');
+	src: url('../fonts/Century Gothic Std Regular.otf');
 }
 
 
@@ -11,8 +11,12 @@ body {
 	font-family: century;
 }
 
+.row {
+    margin: 0;
+}
+
 #cover {
-  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/Gaming_Tables01.jpg") center center no-repeat;
+  background: url("../images/Gaming_Tables01.jpg") center center no-repeat;
   background-size: cover;
   color: white;
   height:100%;
@@ -149,7 +153,7 @@ margin-top: 0;
 }
 
 #blackjack{
-  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/Blackjack_1024x380px.jpg")center top no-repeat;
+  background: url("../images/Blackjack_1024x380px.jpg")center top no-repeat;
   background-size: cover;
   padding: 50px 0;
   height: 100%
@@ -157,28 +161,28 @@ margin-top: 0;
 }
 
 #roulette{
-  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/c8c1373c485510341c0ec1bbe836c715.jpg")center top no-repeat;
+  background: url("../images/c8c1373c485510341c0ec1bbe836c715.jpg")center top no-repeat;
   background-size: cover;
   padding: 50px 0;
   height: 100%
 }
 
 #poker{
-  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/Poker-Texas-Hold-Em.jpg")center top no-repeat;
+  background: url("../images/Poker-Texas-Hold-Em.jpg")center top no-repeat;
   background-size: cover;
   padding: 50px 0;
   height: 100%;
 }
 
 #craps{
-  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/readBlob.jpg")center center no-repeat;
+  background: url("../images/readBlob.jpg")center center no-repeat;
   background-size: cover;
   padding: 50px 0;
   height: 100%;
 }
 
 #mini-bac{
-  background: url("C:/Users/Pollo/Desktop/Codetrotters/web-server-2016/public/assets/images/baccarat.jpg")center center no-repeat;
+  background: url("../images/baccarat.jpg")center center no-repeat;
   background-size: cover;
   padding: 50px 0;
   height: 100%;
